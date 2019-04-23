@@ -23,8 +23,8 @@ a {
 
 img {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
     max-height: 100%;
     max-width: 100%;
     height: auto;
@@ -33,8 +33,8 @@ img {
 }
 
 img.profile-pic {
-	height: 30%;
-	width: 30%;
+	height: 28%;
+	width: 28%;
 	object-fit: cover;
 	border-radius: 50%;
 }
@@ -43,6 +43,11 @@ img.profile-pic {
 	margin: 0 auto;
 	position: relative;
 	height: 100%;
+}
+
+.detail{
+	padding-left:100px;
+
 }
 
 .row {
@@ -62,7 +67,8 @@ img.profile-pic {
 	flex-grow: 1;
 	flex-shrink: 1;
 	margin: 0;
-	padding: 0.25rem;
+	/* padding: 0.25rem; */
+	padding-right:0px;
 	max-width: 100%;
 	max-height: 100%;
 	overflow: auto;
@@ -135,42 +141,49 @@ img.profile-pic {
 }
 
 .bg-color-grey {
-	background-color: #F2F2F2;
+	background-color: rgb(18, 57, 102);
 }
 
 .bg-color-white {
-	background-color: white;
+	background-color: #e9f3ed;
+}
+
+.bg-info{
+	background-color: #92C6A5;
 }
 
 .text-name {
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    color: #333333;
-    font-size: 20px;
+    color:white;
+		font-size: 20px;
+		padding-left:80px;
 }
 
 .text-title-company {
     font-family: 'Lato', sans-serif;
-    font-weight: 200;
-    color: #333333;
-    font-size: 12px;
+    font-weight: 350;
+    color: white;
+		font-size: 15px;
+		padding-left:80px;
 }
 
 .text-detail {
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #575757;
-    font-size: 12px;
+    font-weight: 350;
+    color: white;
+		font-size: 15px;
+		padding-left:10px;
 }
 
 .bottom {
 	height: 23%;
 }
 
-.button {
-	background-color: #219653;
-	height: 48px;
-	padding-left: 24px
+.btn-download {
+	background-color: #B2DEC3;
+	/* height: 48px;
+	padding-left: 24px;
 	padding-right: 24px;
 	text-align: center;
 	vertical-align: middle;
@@ -178,6 +191,7 @@ img.profile-pic {
 	font-family: 'Muli', sans-serif;
 	color: white;
 	font-weight: 300;
+	border-radius: 5%; */
 }
 
 @media screen and (max-width: 600px) {
